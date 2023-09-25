@@ -1,6 +1,6 @@
 # Asset version plugin
 
-A plugin for [Kirby 3 CMS](http://getkirby.com) to add modification timestamps to your assets files (js and css), as long as they are embedded with the css() and js() helpers.
+A plugin for [Kirby CMS](http://getkirby.com) to add modification timestamps to your assets files (js and css), as long as they are embedded with the css() and js() helpers.
 
 This plugin is a fork on cachebuster developped by Timo Schneider : https://github.com/schnti/kirby3-cachebuster
 

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "kirby-plugin",
   "description": "A plugin for Kirby CMS to add modification timestamps to css and js files",
-  "homepage": "https://github.com/pixelopen/kirby-asset-version",
+  "homepage": "https://github.com/Pixel-Open/kirby-asset-version",
   "license": "MIT",
   "authors": [
     {
