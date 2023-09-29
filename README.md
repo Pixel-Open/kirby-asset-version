@@ -21,7 +21,7 @@ This plugin is free but if you use it in a commercial project please consider
 ### Composer
 
 ```
-composer require pixelopen/asset-version
+composer require pixelopen/kirby-asset-version
 ```
 
 ### Git Submodule
@@ -46,7 +46,7 @@ You can disable the plugin with the following line in your `/site/config/config.
 
 ```php
 return [
-  'pixelopen.asset-version.active' => true (default),
+  'pixelopen.asset-version.active' => false,
 ];
 ```
 
