@@ -15,3 +15,6 @@ config.codekit
 /website/kirby/
 /website/site/cache/
 /website/thumbs/
+/kirby/
+
+/vendor/
