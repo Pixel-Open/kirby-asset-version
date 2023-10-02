@@ -33,5 +33,5 @@ jobs:
       uses: symfonycorp/security-checker-action@v4
 
     - name: Run Easy Coding Standard
-      run: vendor/bin/ecs check src
+      run: vendor/bin/ecs check
 
