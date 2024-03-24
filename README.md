@@ -1,4 +1,4 @@
-# Asset version plugin
+# Asset version plugin for Kirby CMS
 
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/Pixel-Open/kirby-asset-version)
 [![Dependency](https://img.shields.io/badge/kirby-3/4-cca000.svg)](https://getkirby.com/)
