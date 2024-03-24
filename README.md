@@ -16,7 +16,7 @@ This plugin is free but if you use it in a commercial project please consider
 
 ### Download
 
-[Download the files](https://github.com/schnti/kirby3-cachebuster/archive/master.zip) and place them inside `site/plugins/asset-version`.
+[Download the files](https://github.com/Pixel-Open/kirby-asset-version/releases) and place them inside `site/plugins/asset-version`.
 
 ### Composer
 
@@ -28,7 +28,7 @@ composer require pixelopen/kirby-asset-version
 You can add the plugin as a Git submodule.
 
     $ cd your/project/root
-    $ git submodule add https://github.com/pixelopen/kirby-asset-version.git site/plugins/asset-version
+    $ git submodule add https://github.com/Pixel-Open/kirby-asset-version.git site/plugins/asset-version
     $ git submodule update --init --recursive
     $ git commit -am "Add Kirby asset version plugin"
 
