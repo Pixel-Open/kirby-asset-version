@@ -2,7 +2,7 @@
 
 Kirby::plugin('pixelopen/asset-version', [
     'options' => [
-        'active' => true
+        'active' => true,
     ],
     'components' => [
         'css' => function ($kirby, $url) {
@@ -10,8 +10,8 @@ Kirby::plugin('pixelopen/asset-version', [
         },
         'js' => function ($kirby, $url) {
             return addVersionToAsset($kirby, $url, 'js');
-        }
-    ]
+        },
+    ],
 ]);
 
 /**
@@ -22,7 +22,8 @@ Kirby::plugin('pixelopen/asset-version', [
  * @param string $extension File extension (css, js, etc.)
  * @return string URL with added version or original URL
  */
-function addVersionToAsset($kirby, $url, $extension) {
+function addVersionToAsset($kirby, $url, $extension)
+{
     if ($kirby->option('pixelopen.asset-version.active')) {
         return dirname($url) . '/' . F::name($url) . '.' . $extension . '?v=' . F::modified(Url::path($url));
     } else {
