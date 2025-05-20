@@ -1,7 +1,7 @@
-# Asset version plugin
+# Asset version plugin for Kirby CMS
 
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/Pixel-Open/kirby-asset-version)
-[![Dependency](https://img.shields.io/badge/kirby-3/4-cca000.svg)](https://getkirby.com/)
+[![Dependency](https://img.shields.io/badge/kirby-3.9/4.0/5.0-cca000.svg)](https://getkirby.com/)
 [![Quality](https://sonarcloud.io/api/project_badges/measure?project=Pixel-Open_kirby-asset-version&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Pixel-Open_kirby-asset-version)
 
 A plugin for [Kirby CMS](http://getkirby.com) to add modification timestamps to your assets files (js and css), as long as they are embedded with the css() and js() helpers.

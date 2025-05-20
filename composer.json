@@ -1,3 +1,4 @@
+
 {
   "name": "pixelopen/kirby-asset-version",
   "type": "kirby-plugin",
@@ -15,19 +16,23 @@
     "kirby-plugin"
   ],
   "require": {
-    "php": ">=8.0.0 <8.4.0",
-    "getkirby/composer-installer": "^1.1",
-    "getkirby/cms": "^3.9.0||^4.0.0"
+    "php": ">=8.0.0",
+    "getkirby/composer-installer": "^1.2",
+    "getkirby/cms": "^3.9.0||^4.0.0||^5.0.0"
   },
   "extra": {
     "installer-name": "asset-version"
   },
   "require-dev": {
-    "symplify/easy-coding-standard": "^12.0"
+    "symplify/easy-coding-standard": "^12.0",
+    "phpunit/phpunit": "^10.0"
   },
   "config": {
     "allow-plugins": {
       "getkirby/composer-installer": true
+    },
+    "platform": {
+      "php": "8.2"
     }
   }
 }
